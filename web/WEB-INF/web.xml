@@ -8,14 +8,37 @@
         <servlet-class>rj.time.TimeServlet</servlet-class>
     </servlet>
 
+    <servlet>
+        <servlet-name>AjaxTimeServlet</servlet-name>
+        <servlet-class>rj.time.AjaxTimeServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>UserServlet</servlet-name>
+        <servlet-class>rj.user.UserServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>ProvinceCityServlet</servlet-name>
+        <servlet-class>rj.provincecity.ProvinceCityServlet</servlet-class>
+    </servlet>
+    
     <servlet-mapping>
         <servlet-name>TimeServlet</servlet-name>
         <url-pattern>/TimeServlet</url-pattern>
     </servlet-mapping>
 
+    <servlet-mapping>
+        <servlet-name>AjaxTimeServlet</servlet-name>
+        <url-pattern>/AjaxTimeServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>UserServlet</servlet-name>
+        <url-pattern>/UserServlet</url-pattern>
+    </servlet-mapping>
 
-
-
+    <servlet-mapping>
+        <servlet-name>ProvinceCityServlet</servlet-name>
+        <url-pattern>/ProvinceCityServlet</url-pattern>
+    </servlet-mapping>
 
 
 
